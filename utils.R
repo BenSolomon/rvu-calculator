@@ -16,11 +16,19 @@ df <- read_csv("rvu_data.csv")%>%
 df
 
 find_base <- function(visit_type, minutes){
+  df %>% 
+    filter(type == visit_type) %>% 
+    filter(min_minutes <= minutes) %>% 
+    slice_max(min_minutes)
+}
+
+find_extra <- function(visit_type, minutes){
   df <- df %>% filter(type == visit_type)
   extra_minutes <- minutes - max(df$min_minutes)
   n_prolonged <- extra_minutes %/% 15
-  print(sprintf('Extra: %s', extra_minutes))
+  print(sprintf('Extra minutes: %s', extra_minutes))
   print(sprintf('Number of prolonged : %s', n_prolonged))
 }
 
-find_base('new', 100)
+print(find_base("new", 100))
+find_extra('new', 100)
