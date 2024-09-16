@@ -1,0 +1,16 @@
+cpt,description,rvu
+99202,"New Outpatient Visit, meet/exceed 15 minutes",0.93
+99203,"New Outpatient Visit, meet/exceed 30 minutes",1.60
+99204,"New Outpatient Visit, meet/exceed 45 minutes",2.60
+99205,"New Outpatient Visit, meet/exceed 60 minutes",3.50
+99212,"Established Outpatient Visit, meet/exceed 10 minutes",0.70
+99213,"Established Outpatient Visit, meet/exceed 20 minutes",1.33
+99214,"Established Outpatient Visit, meet/exceed 30 minutes",1.92
+99215,"Established Outpatient Visit, meet/exceed 40 minutes",2.80
+99242,"Outpatient Consultation, meet/exceed 20 minutes",1.08
+99243,"Outpatient Consultation, meet/exceed 30 minutes",1.80
+99244,"Outpatient Consultation, meet/exceed 40 minutes",2.69
+99245,"Outpatient Consultation, meet/exceed 55 minutes",3.75
+99417,"Outpatient Prolonged Service, each full 15 minutes of time",0.61
+99358,"Prolonged Service w/o Direct Patient Contact, first hour (on date other than the FTF date of service)",1.80
+99359,"Prolonged Service w/o Direct Patient Contact, each addl' 30 minutes (on date other than the FTF date of service)",0.75
